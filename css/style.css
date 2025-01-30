@@ -1,1 +1,219 @@
 @charset "utf-8";
+
+.inner{
+  margin: 0 auto;
+  width: 1100px;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.fa-archway{
+  color: #777;
+  margin: 15px 0;
+}
+
+.contact{
+  color: #ffffff;
+  background-color: #6ba7cb;
+  font-size: 12px;
+  padding: 12px 14px;
+  margin: 0 0 0 auto;
+  text-align: center;
+  height: 20px;
+  transition: .3s;
+}
+
+.contact:hover{
+  color: #333;
+}
+
+/*ここまで一番上*/
+
+.keyvisual{
+  background-image: url(../img/keyvisual/keyvisual.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  vertical-align: baseline;
+  padding-top: 400px;
+  padding-bottom: 400px;
+  line-height: 30px;
+}
+
+.title{
+  font-size: 65px;
+  font-weight: 700;
+  color: #6ba7eb;
+  text-align: center;
+}
+
+.subtitle{
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+}
+
+/*ここまでキービジュアル*/
+
+.work{
+  background-color: #e3f2fd;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.pc{
+  width: 250px;
+  height: auto;
+  object-fit: cover;
+}
+
+.workbox{
+  text-align: center;
+  padding: 20px;
+
+}
+.workdai{
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 10px;
+  margin-bottom: 35px;
+}
+
+.lorem{
+  font-size: 15px;
+  line-height: 18px;
+  word-break: break-all;
+}
+
+.pc:nth-child(1){
+  flex: 4;
+}
+
+.workbox:nth-child(2){
+  flex: 6;
+}
+
+/*ここまでワーク*/
+
+.skill{
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 10px;
+  margin: 50px;
+  text-align: center;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  gap: 100px;
+  grid-template-rows: 300px 300px;
+}
+
+.item{
+  width: 300px;
+  height: 300px;
+  opacity: 0.7;
+}
+
+.item:hover{
+  opacity: 1.0;
+}
+
+/*ここまでスキル*/
+
+.plan{
+  background-color: #d0dfea;
+  margin-top: 70px;
+  padding: 50px 0;
+}
+
+.slplan{
+  font-size: 40px;
+  margin: 0 0 50px 0;
+  letter-spacing: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.plan-table{
+  table-layout: fixed;
+  width: 100%;
+}
+
+.plan-table th{
+  background-color: #6ba7eb;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.plan-table th, .plan-table td{
+  border-left: 2px solid #fff;
+  padding: 10px;
+}
+
+td:first-child,th:first-child{
+  border-left: none;
+}
+
+.plan-table td{
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.plan-table tr{
+  background-color: #f9f9f9;
+}
+
+.plan-table tr:nth-child(even){
+  background-color: #e0efff;
+}
+
+/*ここまでプラン*/
+
+.sns{
+  background-color: #e3f2fd;
+  padding: 200px 0;
+}
+
+.icon-box{
+  display: flex;
+  justify-content: center;
+}
+
+.icon{
+width: 185px;
+margin: 25px 0;
+color: #8c8c8c;
+overflow: hidden;
+font-size: 40px;
+transition: .5s;
+}
+
+.icon:hover{
+  color: #fff;
+}
+
+.copy{
+  background-color: #cfd8dc;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.copyright{
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  text-align: right;
+}
