@@ -39,9 +39,9 @@
   background-position: center;
   background-repeat: no-repeat;
   vertical-align: baseline;
+  line-height: 30px;
   padding-top: 400px;
   padding-bottom: 400px;
-  line-height: 30px;
 }
 
 .title{
@@ -56,39 +56,43 @@
   font-weight: 700;
   color: #ffffff;
   text-align: center;
+  margin-top: 30px;
 }
 
 /*ここまでキービジュアル*/
 
 .work{
   background-color: #e3f2fd;
-  padding-top: 50px;
   display: flex;
   justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 0;
 }
 
 .pc{
   width: 250px;
-  height: auto;
   object-fit: cover;
+  margin-bottom: 0;
 }
 
 .workbox{
   text-align: center;
-  padding: 20px;
-
+  display: flex;
 }
+
 .workdai{
   font-size: 40px;
   font-weight: bold;
   letter-spacing: 10px;
   margin-bottom: 35px;
+  margin-top: 20px;
 }
 
 .lorem{
   font-size: 15px;
   line-height: 18px;
   word-break: break-all;
+  text-align: center;
 }
 
 .pc:nth-child(1){
