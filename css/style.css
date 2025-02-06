@@ -9,6 +9,11 @@ header{
   position: fixed;
   width: 100%;
   background-color: #fff;
+  z-index: 100;
+}
+
+main{
+  padding-top: 78px;
 }
 
 .flex{
@@ -85,8 +90,7 @@ header{
 
 .img-width{
   width: 40%;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .work-width{
@@ -124,11 +128,12 @@ section{
   padding-bottom: 50px;
 }
 
-.container{
+.skil-list{
   display: grid;
   grid-template-columns: 300px 300px 300px;
   gap: 100px;
   grid-template-rows: 300px 300px;
+  list-style: none;
 }
 
 .item{
@@ -206,13 +211,12 @@ td:first-child,th:first-child{
 }
 
 .icon-box{
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .icon{
 width: 185px;
-margin: 25px 0;
+padding: 25px 0;
 color: #8c8c8c;
 overflow: hidden;
 font-size: 40px;
@@ -220,7 +224,7 @@ transition: .5s;
 }
 
 .icon:hover{
-  color: #fff;
+  background-color: #fff;
 }
 
 .copy{
@@ -239,12 +243,17 @@ a{
   text-decoration: none;
 }
 
-/*tab*
+/*tab
+
 @media screen and (max-width:1199px) {
   .keyvisual {
     padding-top: 250px;
     padding-bottom: 250px;
-  }
+    }
+    .flex{
+      width: 100%;
+    }
+
   section {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -267,22 +276,30 @@ a{
   .work-width {
     width: 100%;
   }
-  .container {
+  .skil-list {
     grid-template-columns: 1fr;
-    gap: 0;
     justify-items: center;
+    gap: 0;
   }
 
-    a img:nth-child(3n){
+  li{
+    height: 300px;
+  }
+
+    li:nth-child(3n){
     margin-bottom: 80px;
   }
+
 .skills {
   width: 100%;
 }
 
+.copyright {
+width:100%
+}
 }
 
-/*sp*
+/*sp
 
 @media screen and (max-width:767px) {
 
@@ -331,10 +348,6 @@ a{
 .icon-box {
   display: block;
   width: 100%;
-}
-.plan-table {
-  width: 100%;
-  table-layout:fixed
 }
 
 }
