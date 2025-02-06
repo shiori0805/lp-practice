@@ -5,10 +5,15 @@
   width: 1100px;
 }
 
+header{
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+}
+
 .flex{
   display: flex;
   justify-content: center;
-  background-color: #ffffff;
 }
 
 .fa-archway{
@@ -64,7 +69,6 @@
   background-color: #e3f2fd;
   display: flex;
   justify-content: center;
-  padding-top: 50px;
   padding-bottom: 0;
 }
 
@@ -79,8 +83,10 @@
   justify-content: space-between;
 }
 
-.image{
+.img-width{
   width: 40%;
+  display: flex;
+  justify-content: center;
 }
 
 .work-width{
@@ -106,12 +112,16 @@
 
 /*ここまでワーク*/
 
+section{
+  padding-top: 50px;
+}
+
 .skill{
   font-size: 40px;
   font-weight: bold;
   letter-spacing: 10px;
-  margin: 50px;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .container{
@@ -125,10 +135,12 @@
   width: 300px;
   height: 300px;
   opacity: 0.7;
+  transition: .5s;
 }
 
 .item:hover{
   opacity: 1.0;
+  transition: .5s;
 }
 
 /*ここまでスキル*/
@@ -136,12 +148,11 @@
 .plan{
   background-color: #d0dfea;
   margin-top: 70px;
-  padding: 50px 0;
+  padding-bottom: 50px;
 }
 
 .slplan{
   font-size: 40px;
-  margin: 0 0 50px 0;
   letter-spacing: 10px;
   font-weight: bold;
   text-align: center;
@@ -155,6 +166,7 @@ table{
 .plan-table{
   table-layout: fixed;
   width: 100%;
+  margin-top: 50px;
 }
 
 .plan-table th{
@@ -221,4 +233,108 @@ transition: .5s;
   font-size: 10px;
   letter-spacing: 0.5px;
   text-align: right;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*tab*
+@media screen and (max-width:1199px) {
+  .keyvisual {
+    padding-top: 250px;
+    padding-bottom: 250px;
+  }
+  section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .workbox {
+    display: block;
+  }
+
+.slplan {
+  width: 100%;
+}
+
+.plan-table {
+  width: 100%;
+}
+
+  .img-width {
+    width: 100%;
+  }
+  .work-width {
+    width: 100%;
+  }
+  .container {
+    grid-template-columns: 1fr;
+    gap: 0;
+    justify-items: center;
+  }
+
+    a img:nth-child(3n){
+    margin-bottom: 80px;
+  }
+.skills {
+  width: 100%;
+}
+
+}
+
+/*sp*
+
+@media screen and (max-width:767px) {
+
+  .contact {
+    display: none;
+  }
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.bar {
+  width: 100%;
+  height: 4px;
+  background-color: #333;
+  border-radius: 2px;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.subtitle {
+  font-size: 30px;
+}
+
+.plan-table th {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.plan-table td {
+  font-size: 12px;
+}
+
+.icon {
+  margin: 50px 15px;
+  width: 100%;
+}
+
+.icon-box {
+  display: block;
+  width: 100%;
+}
+.plan-table {
+  width: 100%;
+  table-layout:fixed
+}
+
 }
