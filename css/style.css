@@ -95,6 +95,7 @@ main{
 
 .work-width{
   width: 60%;
+  margin-top: 20px;
 }
 
 
@@ -103,7 +104,6 @@ main{
   font-weight: bold;
   letter-spacing: 10px;
   margin-bottom: 35px;
-  margin-top: 20px;
   text-align: center;
 }
 
@@ -118,6 +118,10 @@ main{
 
 section{
   padding-top: 50px;
+}
+
+.skills{
+  padding-bottom: 70px;
 }
 
 .skill{
@@ -152,7 +156,6 @@ section{
 
 .plan{
   background-color: #d0dfea;
-  margin-top: 70px;
   padding-bottom: 50px;
 }
 
