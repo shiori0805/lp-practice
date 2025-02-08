@@ -129,7 +129,7 @@ section{
   font-weight: bold;
   letter-spacing: 10px;
   text-align: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .skil-list{
@@ -246,14 +246,15 @@ a{
   text-decoration: none;
 }
 
-/*tab
+/*tab*/
 
 @media screen and (max-width:1199px) {
   .keyvisual {
     padding-top: 250px;
     padding-bottom: 250px;
     }
-    .flex{
+
+    .main-title{
       width: 100%;
     }
 
@@ -280,16 +281,17 @@ a{
     width: 100%;
   }
   .skil-list {
+    width: 100%;
     grid-template-columns: 1fr;
     justify-items: center;
     gap: 0;
   }
 
-  li{
+  .skil-list li{
     height: 300px;
   }
 
-    li:nth-child(3n){
+    .skil-list li:nth-child(3n){
     margin-bottom: 80px;
   }
 
@@ -302,9 +304,16 @@ width:100%
 }
 }
 
-/*sp
+/*sp*/
 
 @media screen and (max-width:767px) {
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+
 
   .contact {
     display: none;
@@ -312,11 +321,12 @@ width:100%
 
 .hamburger {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
+  flex-direction: column;
   width: 30px;
   height: 25px;
   cursor: pointer;
+  margin: 20px 0 0 auto;
 }
 
 .bar {
