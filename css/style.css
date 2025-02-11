@@ -270,6 +270,7 @@ a{
   }
   .workbox {
     display: block;
+    padding-bottom: 50px;
   }
 
 .slplan {
@@ -299,6 +300,10 @@ a{
 
     .skil-list li:nth-child(3n){
     margin-bottom: 80px;
+  }
+
+  .skil-list li:last-child{
+    margin-bottom: 0;
   }
 
 .skills {
@@ -363,8 +368,13 @@ header{
   font-size: 12px;
 }
 
+.sns{
+  padding: 50px 15px;
+}
+
+
 .icon {
-  margin: 50px 15px;
+  padding: 50px 0;
   width: 100%;
 }
 
