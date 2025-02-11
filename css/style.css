@@ -250,6 +250,11 @@ a{
 /*tab*/
 
 @media screen and (max-width:1199px) {
+
+  .inner{
+    width: 97%;
+  }
+
   .keyvisual {
     padding-top: 250px;
     padding-bottom: 250px;
