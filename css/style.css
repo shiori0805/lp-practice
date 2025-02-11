@@ -215,6 +215,7 @@ td:first-child,th:first-child{
 
 .icon-box{
   text-align: center;
+  font-size: 0;
 }
 
 .icon{
@@ -270,7 +271,7 @@ a{
   width: 100%;
 }
 
-.plan-table {
+.plan {
   width: 100%;
 }
 
@@ -297,6 +298,10 @@ a{
 
 .skills {
   width: 100%;
+}
+
+.plan-table{
+  width: 97%;
 }
 
 .copyright {
